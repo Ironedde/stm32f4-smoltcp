@@ -1,7 +1,7 @@
 #![no_std]
 
 pub extern crate stm32f4xx_hal as hal;
-use self::hal::stm32::{ETHERNET_DMA, ETHERNET_MAC, RCC};
+use hal::stm32::{ETHERNET_DMA, ETHERNET_MAC, RCC};
 
 use smoltcp::{
     self,
